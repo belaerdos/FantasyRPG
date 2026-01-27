@@ -12,4 +12,9 @@ public class Enemy_Combat : MonoBehaviour
             collision.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
         }    
     }
+
+    public void Attack()
+    {
+        Debug.Log("Attacking player now");
+    }
 }

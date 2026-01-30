@@ -1824,6 +1824,8 @@ MonoBehaviour:
   damage: 1
   attackPoint: {fileID: 518697121}
   weaponRange: 1
+  knockBackForce: 10
+  stunTime: 0.5
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -1902,9 +1904,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  attackRange: 1.5
+  attackRange: 1.2
   attackCooldown: 2
-  playerDetectRange: 5
+  playerDetectRange: 4.5
   detectionPoint: {fileID: 570013993}
   playerLayer:
     serializedVersion: 2
@@ -8705,8 +8707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51c2f4eb23060b4bba1e2d7621b0f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 3
-  maxHealth: 3
+  currentHealth: 20
+  maxHealth: 20
   healthText: {fileID: 1883563972}
   healthTextAnim: {fileID: 1883563974}
 --- !u!1 &1690305251
